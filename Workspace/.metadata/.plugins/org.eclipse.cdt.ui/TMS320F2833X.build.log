@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project TMS320F2833X ****
+
+"C:\\ti\\ccs1100\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -Ooff --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source/ASW" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source/BSW/CMD" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source/BSW/common" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source/BSW/common/include" --include_path="D:/TMS320F28335_STU/Workspace/TMS320F2833X/Source/BSW/header/include" --include_path="C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "TMS320F2833X.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -Ooff -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"TMS320F2833X.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/lib" -i"C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="TMS320F2833X_linkInfo.xml" --rom_model -o "TMS320F2833X.out" "./main.obj" "./Source/BSW/common/source/DSP2833x_ADC_cal.obj" "./Source/BSW/common/source/DSP2833x_Adc.obj" "./Source/BSW/common/source/DSP2833x_CSMPasswords.obj" "./Source/BSW/common/source/DSP2833x_CodeStartBranch.obj" "./Source/BSW/common/source/DSP2833x_CpuTimers.obj" "./Source/BSW/common/source/DSP2833x_DBGIER.obj" "./Source/BSW/common/source/DSP2833x_DMA.obj" "./Source/BSW/common/source/DSP2833x_DefaultIsr.obj" "./Source/BSW/common/source/DSP2833x_DisInt.obj" "./Source/BSW/common/source/DSP2833x_ECan.obj" "./Source/BSW/common/source/DSP2833x_ECap.obj" "./Source/BSW/common/source/DSP2833x_EPwm.obj" "./Source/BSW/common/source/DSP2833x_EQep.obj" "./Source/BSW/common/source/DSP2833x_Gpio.obj" "./Source/BSW/common/source/DSP2833x_I2C.obj" "./Source/BSW/common/source/DSP2833x_Mcbsp.obj" "./Source/BSW/common/source/DSP2833x_MemCopy.obj" "./Source/BSW/common/source/DSP2833x_PieCtrl.obj" "./Source/BSW/common/source/DSP2833x_PieVect.obj" "./Source/BSW/common/source/DSP2833x_Sci.obj" "./Source/BSW/common/source/DSP2833x_Spi.obj" "./Source/BSW/common/source/DSP2833x_SysCtrl.obj" "./Source/BSW/common/source/DSP2833x_Xintf.obj" "./Source/BSW/common/source/DSP2833x_usDelay.obj" "./Source/BSW/header/source/DSP2833x_GlobalVariableDefs.obj" "../Source/BSW/CMD/28335_RAM_lnk.cmd" "../Source/BSW/CMD/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "TMS320F2833X.out"
+ 
+
+**** Build Finished ****

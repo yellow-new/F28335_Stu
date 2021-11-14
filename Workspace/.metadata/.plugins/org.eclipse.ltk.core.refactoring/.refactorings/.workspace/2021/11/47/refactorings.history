@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TMS320F2833X/28335_RAM_lnk.cmd&apos;" deleteContents="false" description="Delete resource &apos;TMS320F2833X/28335_RAM_lnk.cmd&apos;" element1="/TMS320F2833X/28335_RAM_lnk.cmd" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636893072064"/>
+</session>
