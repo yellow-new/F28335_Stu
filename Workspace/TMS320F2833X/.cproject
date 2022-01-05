@@ -44,16 +44,16 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.DIAG_WRAP.1166211982" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.DIAG_WRAP" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.INCLUDE_PATH.1161407404" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/BSW"/>
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/ASW"/>
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source"/>
-									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/BSW/CMD"/>
-									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/BSW/common"/>
-									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/BSW/common/include"/>
-									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/BSW/header/include"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/ChipDevice/"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/ChipDevice/common/include"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/Source/ChipDevice/header/include"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.ABI.1579632987" name="Application binary interface [See 'General' page to edit] (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.ABI" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.ABI.coffabi" valueType="enumerated"/>
-								<option id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL.1439268959" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL.1439268959" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_21.6.compilerID.OPT_LEVEL.2" valueType="enumerated"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__C_SRCS.458945812" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__C_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__CPP_SRCS.1065574485" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__CPP_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__ASM_SRCS.1696521935" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_21.6.compiler.inputType__ASM_SRCS"/>
@@ -81,7 +81,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Source/BSW/CMD/F28335.cmd|Source/BSW/CMD/DSP2833x_Headers_BIOS.cmd" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "dsp28x_project.h": "c",
+        "asw_initgpio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,7 +1,10 @@
-
-
-/**
- * main.c
+/*
+ * @Author: YellowNew
+ * @Date: 2021-11-14 20:30:26
+ * @LastEditTime: 2022-01-04 20:43:32
+ * @Description: 
+ * @FilePath: \TMS320F2833X\main.c
+ * @Encoding: UTF-8
  */
 
 #include "DSP28x_Project.h"
@@ -20,7 +23,7 @@ int main(void)
      // This example function is found in the DSP2833x_Gpio.c file and
      // illustrates how to set the GPIO to it's default state.
      //
-     // InitGpio();  // Skipped for this example
+     InitGpio();  // Skipped for this example
 
      //
      // For this example use the following configuration

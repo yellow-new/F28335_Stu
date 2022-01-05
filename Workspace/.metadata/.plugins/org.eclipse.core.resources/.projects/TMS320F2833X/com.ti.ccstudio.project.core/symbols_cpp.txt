@@ -1,7 +1,7 @@
 #define __signed_chars__ 1	/* Predefined */
 #define __PRAGMA_REDEFINE_EXTNAME 1	/* Predefined */
-#define __DATE__ "Nov 14 2021"	/* Predefined */
-#define __TIME__ "20:39:32"	/* Predefined */
+#define __DATE__ "Jan  4 2022"	/* Predefined */
+#define __TIME__ "20:39:35"	/* Predefined */
 #define __STDC__ 1	/* Predefined */
 #define __STDC_HOSTED__ 1	/* Predefined */
 #define __cplusplus 199711L	/* Predefined */
@@ -65,3 +65,4 @@
 #define __SIZEOF_WINT_T__ 1	/* Predefined */
 #define __SIZEOF_PTRDIFF_T__ 2	/* Predefined */
 #define _OPTIMIZE_FOR_SPACE 1
+#define _INLINE 1
